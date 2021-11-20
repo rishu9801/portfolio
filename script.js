@@ -76,10 +76,10 @@ function renderProjects(projects) {
   projects.forEach((project) => {
     const html = ` <div class="card">
     <span class="card-top">
-      <img src="folder.png">
+      <img src="images/folder.png">
       <a href='${
         project.link
-      }' target='blank'><img src="open.png" class="open"></a>
+      }' target='blank'><img src="images/open.png" class="open"></a>
     </span>
     <span class="card-body">
       <h4 class='project-title'>${project.title}</h4>
