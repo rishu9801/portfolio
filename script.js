@@ -9,6 +9,11 @@ const projects = [
     desc: "netflix clone is a fully functional webapp where users can signUp or login and create their own playlist. users can add movies or tv shows either from popular ones or by searching for them",
     tech: ["angular", "firebase", "omdb API"],
     link: "https://authangular-ac8da.web.app",
+  },{
+    title: "Crypto Tracker",
+    desc: "A React app to keep a track of Cryptocurrencies.",
+    tech: ['React','SCSS','CoinGecko API'],
+    link: "https://netlify-crypto-tracker.netlify.app/",
   },
   {
     title: "weather app",
@@ -51,7 +56,9 @@ const projects = [
     desc: "a simple version of the legendary dino game.",
     tech: ["HTML", "CSS", "Javascript"],
     link: "http://rishu9801.github.io/dino",
-  },
+  }
+  
+ 
 ];
 // mobile Menu toggler
 toggler.addEventListener("click", toggle);
