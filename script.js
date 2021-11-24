@@ -46,12 +46,6 @@ const projects = [
     link: "http://rishu9801.github.io/studio",
   },
   {
-    title: "hotel landing page",
-    desc: "a landing page for a hotel",
-    tech: ["HTML", "CSS", "Javascript"],
-    link: "http://rishu9801.github.io/hotell02",
-  },
-  {
     title: "dino game",
     desc: "a simple version of the legendary dino game.",
     tech: ["HTML", "CSS", "Javascript"],
