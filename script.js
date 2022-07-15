@@ -5,6 +5,12 @@ const menuLinks = document.querySelectorAll(".menuLink");
 const cardContainer = document.querySelector(".card-container");
 const projects = [
   {
+    title: "Instagram Clone",
+    desc: "I have built an Instagram clone Webapp , where users can signup and upload their pictures and like and comment on other posts.",
+    tech: ["React", "firebase", "Bulma","Material UI"],
+    link: "https://instagram-9801.web.app/",
+  },
+  {
     title: "Netflix Clone",
     desc: "netflix clone is a fully functional webapp where users can signUp or login and create their own playlist. users can add movies or tv shows either from popular ones or by searching for them",
     tech: ["angular", "firebase", "omdb API"],
